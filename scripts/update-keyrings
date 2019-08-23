@@ -171,11 +171,23 @@ def fix_perms(path: str) -> None:
     os.chmod(path, 0o775)
     for root, dirs, files in os.walk(path):
         for cur in dirs:
-            chown(os.path.join(root, cur), group="keyring")
-            os.chmod(os.path.join(root, cur), 0o775)
+            try:
+                chown(os.path.join(root, cur), group="keyring")
+            except:
+                pass
+            try:
+                os.chmod(os.path.join(root, cur), 0o775)
+            except:
+                pass
         for cur in files:
-            chown(os.path.join(root, cur), group="keyring")
-            os.chmod(os.path.join(root, cur), 0o664)
+            try:
+                chown(os.path.join(root, cur), group="keyring")
+            except:
+                pass
+            try:
+                os.chmod(os.path.join(root, cur), 0o664)
+            except:
+                pass
 
 
 def publish(srcdir: str,
@@ -288,9 +300,11 @@ def publish(srcdir: str,
         if path.isdir(wkd_deploy_path):
             os.rename(wkd_deploy_path, 'openpgpkey.old')
         os.rename('openpgpkey', wkd_deploy_path)
+        fix_perms(wkd_deploy_path)
         os.rename(
             '_openpgpkey.debian.org.zone',
             path.join(prefix, '_openpgpkey.debian.org.zone'))
+        fix_perms(path.join(prefix, '_openpgpkey.debian.org.zone'))
         os.chdir(srcdir)
     run(['static-update-component', 'openpgpkey.debian.org'], check=True)
     run(['sudo', 'service', 'bind9', 'reload'], check=True)
