@@ -12,6 +12,7 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
   [ John Sullivan ]
   * Add new DD key 0x30E674676859C8AD (Clément Hermann) (RT #7933)
   * Add new DD key 0xA35DAFFBAD29E8DE (Gordon Ball) (RT #7934)
+  * Move 0xC6D50A4188C70E43 (Patrick Winnertz) to emeritus (RT #7961)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 26 Aug 2019 17:51:10 +0100
 
