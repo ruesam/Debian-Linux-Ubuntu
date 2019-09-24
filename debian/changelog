@@ -10,6 +10,68 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
     #7948)
   * Add new DM key 0x1EDBAA3C6926AF92 (Baptiste BEAUPLAT) (RT #7972)
   * Remove 0xB6C4D9B63BFFE73C (Nicholas Bamber) (RT #7974)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0098F6131EB86413 Ilias Tsitsimpis <iliastsi> sig:4
+    * 0x02C1D3F2783AA4DE Kartik Mistry <kartik> sig:3
+    * 0x054BBB9F7D806442 Niels Thykier <nthykier> sig:1
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:3
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:6
+    * 0x0C70557B5A06513E Jan Wagner <waja> sig:6
+    * 0x0D442664194974E2 Pierre-Elliott Bécue <peb> sig:5
+    * 0x1762E0227034CF84 William Blough <bblough> sig:5
+    * 0x17E950C257EB2134 Carlos Laviola <claviola> sub:2 sig:6
+    * 0x17FBDCBFD9928FF4 Jochen Sprickerhof <jspricke> sig:5
+    * 0x2C3B436FEAC68101 Adam Borowski <kilobyte> sig:6
+    * 0x2C7FCF80F4F76C43 Lennart Weller [DM] sig:6
+    * 0x2E20FEEE71FC7D81 Dmitry Bogatov <kaction> uid:2 sig:2
+    * 0x2E8162547E37CE41 Kouhei Maeda [DM] sig:2
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:3
+    * 0x2EC3F60DE71C0B9D James Lu <jlu> sig:5
+    * 0x2FF9CD59612616B5 Axel Beckert <abe> sig:4
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x34CD816DE6FCD33E Arto Jantunen <viiru> sub:1 sig:1
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x39278DA8109E6244 Guilhem Moulin <guilhem> sig:50
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:4
+    * 0x44173FA13D058888 Ying-Chun Liu (PaulLiu) <paulliu> sig:15
+    * 0x48D19F46BC99C9B7 Mark Lee Garrett <lee> sig:12
+    * 0x4B0069CCF6527847 Bruno Kleinert <fuddl> uid:1 sig:2
+    * 0x524DD2227A5017ED Rebecca Natalie Palmer <rnpalmer> sig:4
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:9
+    * 0x55FF03AE59EC5558 Giacomo Catenazzi <cate> sig:2
+    * 0x578A0494D1C646D1 Andreas Tille <tille> sig:11
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:6
+    * 0x5ACE8D6E0C14A470 Luke Faraone <lfaraone> sig:7
+    * 0x5E0195FAF2133176 Enrico Rossi [DM] sig:2
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> sig:2
+    * 0x612EF1613E050F54 Dylan Aïssi <daissi> sig:4
+    * 0x6E608B637D8967E9 Miguel Landaeta <nomadium> sig:9
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:2
+    * 0x83E33BD7D4DD4CA1 Jerome Charaoui <lavamind> sig:4
+    * 0x8A0A48874687AF4F Toni Mueller <toni> sig:4
+    * 0x90DD4120CB09F22F Florian Lohoff <flo> sig:2
+    * 0x93022BAD0563A51D Teus Benschop <teusbenschop> sig:1
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:11
+    * 0x9A358BAB04A4ED27 Markus Frosch <lazyfrosch> sig:6
+    * 0xA6DC24D9DA2493D1 Sven Hoexter <hoexter> sig:4
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:6
+    * 0xA784FF770F0F4FFA Michael Gilbert <mgilbert> uid:1 sub:1 sig:5
+    * 0xAE9B1138386ECAF2 Gabriel F. T. Gomes <gabriel> sig:4
+    * 0xB188AE5579F492F8 Per Andersson <avtobiff> sig:1
+    * 0xB82A217AFDFE09F2 David Prévot <taffit> sig:3
+    * 0xB8B24C06AC128405 Ben Finney <bignose> sub:2 sig:10
+    * 0xC3860AC59F574E3A Bastian Germann <bage> sig:6
+    * 0xC51EA7006E6BDC0D Taowa Munene-Tardif <taowa> sig:2
+    * 0xC6875F3541CEFDE0 Stefan Fritsch <sf> sig:2
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sub:2 sig:2
+    * 0xE42AA04FA6AA8C72 Mike Hommey <glandium> sig:2
+    * 0xE7815732180C2A55 Hans van Kranenburg <knorrie> sig:3
+    * 0xEBF67A846AABE354 Simon Richter <sjr> sig:5
+    * 0xECB73E37E887AA8C Tomasz Rybak <serpent> sig:6
+    * 0xFB0E132DDB0AA5B1 Daniel Lenharo de Souza <lenharo> sig:9
+    * 0xFE22C6FD83135D45 Felix Geyer <fgeyer> sig:6
+    * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:3
 
   [ John Sullivan ]
   * Add new DD key 0x30E674676859C8AD (Clément Hermann) (RT #7933)
