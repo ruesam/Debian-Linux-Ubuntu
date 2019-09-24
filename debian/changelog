@@ -8,6 +8,7 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xA199D76BCA4691E3 (Joan Lledó) (RT #7945)
   * Move 0xA1B986143704397B (Nelson A. de Oliveira) to emeritus (RT
     #7948)
+  * Add new DM key 0x1EDBAA3C6926AF92 (Baptiste BEAUPLAT) (RT #7972)
 
   [ John Sullivan ]
   * Add new DD key 0x30E674676859C8AD (Clément Hermann) (RT #7933)
